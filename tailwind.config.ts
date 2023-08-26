@@ -9,9 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'smartphone':"url('/smartphone.jpg')",
+        'blackpc':"url('/blackpc.jpg')",
+        'campas':"url('/campas.jpg')",
+        'factly':"url('/factly.webp')",
+        'kumitoru':"url('/kumitoru.webp')",
+        'maiking':"url('/maiking.jpg')",
+        'oohira':"url('/oohira.webp')",
+        'pc':"url('/pc.jpg')",
+        'scroll':"url('/scroll.webp')",
       },
     },
   },
